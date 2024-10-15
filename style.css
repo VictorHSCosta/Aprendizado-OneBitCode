@@ -61,10 +61,6 @@
   grid-template-areas: "container-fotos sidebarContent";
 }
 
-.box {
-  width: 280px;
-}
-
 .container-fotos {
   display: flex;
   flex-wrap: wrap;
@@ -76,6 +72,7 @@
 .box {
   padding: 1rem;
   border-radius: 0.5rem;
+  width: 280px;
 }
 
 .image {
@@ -154,5 +151,10 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "container-fotos" "sidebarContent";
+  }
+
+  .header {
+    justify-content: center;
+    gap: 0.5rem;
   }
 }
